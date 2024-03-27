@@ -5,13 +5,22 @@
     <style>
       @import "./src/style.css";
     </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/searchpanes/2.3.0/js/dataTables.searchPanes.js"></script>
+    <script src="https://cdn.datatables.net/searchpanes/2.3.0/js/searchPanes.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/select/2.0.0/js/dataTables.select.js"></script>
+    <script src="https://cdn.datatables.net/select/2.0.0/js/select.dataTables.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/2.0.3/api/sum().js"></script>
+    <link href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/searchpanes/2.3.0/css/searchPanes.dataTables.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/select/2.0.0/css/select.dataTables.css" rel="stylesheet">
+
     <title>JSDev</title>
   </head>
   <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
+
+    <table id="example" class="compact display nowrap" style="width:100%"></table>
 
     <script type="module">
       import "./src/index.js";
